@@ -8,11 +8,11 @@
 
 Target Host: scanme.nmap.org (45.33.32.156)
 
-Open Ports Identified:
-22/tcp(ssh)
-80/tcp (http)
-9929/tcp (nping-echo)
-31337/tcp (Elite)
+Open Ports Identified:  
+22/tcp (ssh)  
+80/tcp (http)  
+9929/tcp (nping-echo)  
+31337/tcp (Elite)  
 
 
 Observation: Nmap was used to scan the target host and identify active services. The scan detected TCP ports 22, 80, 113, 9929, and 31337 as open. For this lab, I focused on verifying the results for port 9929, which Nmap identified as the nping-echo service. These findings were then validated through packet analysis in Wireshark.
